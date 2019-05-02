@@ -4,7 +4,7 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { tap } from "rxjs/operators";
 import { JwtHelperService } from "@auth0/angular-jwt";
 
-const authServiceUrl = "https://backendframework.herokuapp.com/";
+const authServiceUrl = "https://backend-framework62.herokuapp.com/";
 
 const httpOptions = {
   headers: new HttpHeaders({
